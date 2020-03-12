@@ -1,0 +1,18 @@
+{
+    "text": "본문 제목 내용",
+    "attachments": [
+      {
+        "type": "Card",
+        "fallback": "Attachment fallback text",
+        "color": "#00ff2a",
+        "intro": "Attachment intro appears before the attachment block",
+        "author": {
+            "name": "Author Name",
+            "uri": "https://example.com/author_link",
+            "iconUri": "https://example.com/author_icon.png"
+        },
+        "title": "Attachment Title",
+        "text": "Attachment text"
+      }
+    ]
+  }
