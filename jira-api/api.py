@@ -8,7 +8,7 @@ from jira import JIRA
 from datetime import datetime, timedelta
 
 options = {'server':'https://jira.ktmusic.co.kr/'}
-jira = JIRA(options, basic_auth=("jhhwang", "hjh775531!"))
+jira = JIRA(options, basic_auth=("jhhwang", "password"))
 issueNum = []
 tmpNum = []
 issueDir = {}
