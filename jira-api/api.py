@@ -7,7 +7,7 @@ from collections import Counter
 from jira import JIRA
 from datetime import datetime, timedelta
 
-options = {'server':'https://jira.ktmusic.co.kr/'}
+options = {'server':'https://jira.주소/'}
 jira = JIRA(options, basic_auth=("jhhwang", "password"))
 issueNum = []
 tmpNum = []
@@ -16,9 +16,8 @@ issueDir = {}
 # eDate = ""
 # sDate = now.date()
 # eDate = now.date() + timedelta(days=2)
-# jira_Date_SQL = 'created >= '+ sDate.strftime('%Y-%m-%d') +' AND created <= '+ eDate.strftime('%Y-%m-%d') + ' AND reporter in (cyj1370, jhhwang, tikim, hoya0505, jhkim4, mjkim1, ksh94807, jhlee5)'
 
-jira_Date_SQL = 'created >= -1m AND reporter in (cyj1370, jhhwang, tikim, hoya0505, jhkim4, mjkim1, ksh94807, jhlee5)'
+jira_Date_SQL = 'created >= -1m AND reporter in (보고자 ID)'
 # print(jira_Date_SQL)
 
 while True:
